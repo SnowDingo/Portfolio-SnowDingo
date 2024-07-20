@@ -51,20 +51,6 @@ const isActive = (path: string) =>
 
       <li>
         <a
-          href={getRelativeLocaleUrl(locale, "/feature")}
-          class={isActive("/feature") ? "active" : null}
-        >
-          {
-            t({
-              ja: "その他の機能",
-              en: "Features",
-            })
-          }
-        </a>
-      </li>
-
-      <li>
-        <a
           href={getRelativeLocaleUrl(locale, "/blog")}
           class={isActive("/blog") ? "active" : null}
         >
@@ -74,7 +60,7 @@ const isActive = (path: string) =>
 
       <li>
         <a
-          href="https://github.com/psephopaiktes/astro-i18n-starter"
+          href="https://github.com/SnowDingo"
           target="_blank"
         >
           GitHub

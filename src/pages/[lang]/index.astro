@@ -17,23 +17,12 @@ export const getStaticPaths = () =>
 ---
 
 <Layout>
-  <Image
-    src={locale === "ja"
-      ? heroImageJa
-          : heroImageEn}
-    alt={t({
-      ja: "こんにちは",
-      en: "Hello",
-    })}
-    loading="eager"
-  />
-
   <p>
     <em>
       {
         t({
           ja: "SnowDingo",
-          en: "SnowDingo",
+          en: "Hi, I am SnowDingo!",
         })
       }
     </em>
