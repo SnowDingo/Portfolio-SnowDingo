@@ -18,8 +18,7 @@ const isActive = (path: string) =>
 <header class="l-header">
   <h1 dir="ltr">
     <a href={getRelativeLocaleUrl(locale, "/")}>
-      <Image src={AstroImage} alt="Astro" />
-      i18n Starter
+      SnowDingo
     </a>
   </h1>
 
@@ -30,23 +29,21 @@ const isActive = (path: string) =>
       <li>
         <a
           href={getRelativeLocaleUrl(locale, "/setup")}
-          class={isActive("/setup") ? "active" : null}
+          class={isActive("/About") ? "active" : null}
         >
-          {t({ ja: "設定", en: "Setup", "zh-cn": "设置", ar: "إعداد" })}
+          {t({ ja: "About", en: "About",})}
         </a>
       </li>
 
       <li>
         <a
-          href={getRelativeLocaleUrl(locale, "/page")}
-          class={isActive("/page") ? "active" : null}
+          href={getRelativeLocaleUrl(locale, "/projects")}
+          class={isActive("/projects") ? "active" : null}
         >
           {
             t({
-              ja: "ページの追加",
-              en: "Add Page",
-              "zh-cn": "添加页面",
-              ar: "إضافة صفحة",
+              ja: "プロジェクト",
+              en: "Projects",
             })
           }
         </a>
@@ -61,19 +58,8 @@ const isActive = (path: string) =>
             t({
               ja: "その他の機能",
               en: "Features",
-              "zh-cn": "特性",
-              ar: "الميزات",
             })
           }
-        </a>
-      </li>
-
-      <li class="en-only">
-        <a
-          href={getRelativeLocaleUrl(locale, "/monolingual")}
-          class={isActive("/monolingual") ? "active" : null}
-        >
-          Monolingual
         </a>
       </li>
 

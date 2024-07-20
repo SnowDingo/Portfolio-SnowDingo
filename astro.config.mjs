@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [mdx(), sitemap()],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ja', 'zh-cn', 'ar'],
+    locales: ['en', 'ja',],
     routing: {
       prefixDefaultLocale: true,
       redirectToDefaultLocale: false,
@@ -16,7 +16,7 @@ export default defineConfig({
   },
   markdown: {
     shikiConfig: {
-      theme: 'red',
+      theme: 'night-owl',
     },
   },
 });

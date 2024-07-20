@@ -6,14 +6,14 @@
 
 :root {
   @media (prefers-color-scheme: dark) {
-    --color-theme: #ef4d1a;
-    --color-accent: #943e0d;
-    --color-base: #342c28;
-    --color-main: #faf9f6;
+    --color-theme: #dfe3f0;
+    --color-accent: #e9b312;
+    --color-base: #3533b1;
+    --color-main: #f6f7fa;
     --color-caution: #FFAA2B;
   }
   @media (prefers-color-scheme: light) {
-    --color-theme: #ef4d1a;
+    --color-theme: #1a25ef;
     --color-accent: #ffcc21;
     --color-base: #faf9f6;
     --color-main: #342c28;

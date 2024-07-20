@@ -3,11 +3,11 @@
 
 import { type Multilingual } from "@/i18n";
 
-export const SITE_TITLE: string | Multilingual = "Astro i18n Starter";
+export const SITE_TITLE: string | Multilingual = "SnowDingo Portfolio";
 
 export const SITE_DESCRIPTION: string | Multilingual = {
-  en: "A starter template for Astro with i18n support.",
-  ja: "i18n 対応の Astro スターターテンプレート。",
+  en: "A portfolio site of SnowDingo.",
+  ja: "SnowDingoのポートフォリオサイト",
 };
 
 export const X_ACCOUNT: string | Multilingual = "@psephopaiktes";

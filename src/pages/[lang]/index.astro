@@ -32,147 +32,100 @@ export const getStaticPaths = () =>
     <em>
       {
         t({
-          ja: "i18n Starter は多言語対応サイトを作成するためのシンプルな Astro theme です。Astro v4.0からのi18n機能に対応しています。",
-          en: "i18n Starter is a simple Astro theme for creating multilingual websites. It supports i18n feature from Astro v4.0.",
-          "zh-cn":
-            "i18n Starter 是一个用于创建多语言网站的简单 Astro 主题。它支持 Astro v4.0 的 i18n 功能。",
-          ar: "i18n Starter هو موضوع Astro بسيط لإنشاء مواقع الويب متعددة اللغات.يدعم ميزة i18n من Astro v4.0.",
+          ja: "SnowDingo",
+          en: "SnowDingo",
         })
       }
     </em>
   </p>
 
-  <p>
-    <a
-      href={`https://docs.astro.build/${locale}/guides/internationalization/`}
-      target="_blank"
-    >
-      Internationalization (i18n) Routing | Astro Docs
-      <span class="material-icons-sharp dir">open_in_new</span>
-    </a>
-  </p>
 
   <p>
     {
       t({
-        ja: "基本的にサブディレクトリ方式のURLのみサポートしています。言語ごとに以下のようなURLで管理されます。ルートURLは指定したデフォルト言語にリダイレクトされます。",
-        en: "Basically, only the subdirectory URL scheme is supported. It is managed by the URL as follows for each language. The root URL is redirected to the specified default language.",
-        "zh-cn":
-          "基本上，只支持子目录 URL 方案。 它由以下 URL 为每种语言进行管理。 根 URL 将重定向到指定的默认语言。",
-        ar: "أساساً، يتم دعم نظام URL الفرعي فقط. يتم إدارتها من خلال URL كما يلي لكل لغة. يتم توجيه عنوان URL الجذري إلى اللغة الافتراضية المحددة.",
+        ja: "こんにちは、SnowDingoと申します。北海蔵在住の個人ウェブ開発に4年以上携わるソフトウェアエンジニア兼ウェブデザイナーです。バイリンガルスキルとウェブ開発のスキル両方を活かしてプロジェクトを作成しています。",
+        en: "Hi! I am SnowDingo. I am a Hokkaido developer that has been in web dev/design field for over four years. I use my billingal skill and coding skills to make the world interesting",
       })
     }
   </p>
 
-  <ul>
-    <li>example.com/en/</li>
-    <li>example.com/ja/</li>
-  </ul>
-
   <h2>
     {
       t({
-        ja: "特徴",
-        en: "Feature",
-        "zh-cn": "特点",
-        ar: "ميزة",
+        ja: "テックスタック",
+        en: "Tech Stacks",
       })
     }
   </h2>
 
   <ul>
     <li>
-      {
-        t({
-          ja: "Astro公式のi18n機能をサポート",
-          en: "support for Astro's official i18n feature",
-          "zh-cn": "支持 Astro 官方的 i18n 功能",
-          ar: "دعم لميزة i18n الرسمية لـ Astro",
-        })
-      }
+     Astro.js
     </li>
-    <li>
-      {
-        t({
-          ja: "多言語ページの様々な管理方法",
-          en: "Various management methods for multilingual pages",
-          "zh-cn": "多语言页面的各种管理方法",
-          ar: "طرق إدارة متعددة للصفحات متعددة اللغات",
-        })
-      }
-    </li>
-    <li>Vanilla CSS</li>
-    <li>
-      {
-        t({
-          ja: "SEOフレンドリー",
-          en: "SEO friendly",
-          "zh-cn": "SEO 友好",
-          ar: "SEO ودية",
-        })
-      }
-    </li>
-    <li>
-      {
-        t({
-          en: "100/100 Lighthouse performance",
-          ja: "100/100 Lighthouse スコア",
-          "zh-cn": "100/100 Lighthouse 性能",
-          ar: "أداء Lighthouse 100/100",
-        })
-      }
-    </li>
+    <li>Godot Engine</li>
+    <li>Python</li>
+    <li>Manim</li>
+    <li>Html/CSS + Tailwind CSS</li>
   </ul>
 
   <h2>
     {
       t({
-        en: "Getting Started",
-        ja: "はじめに",
-        "zh-cn": "入门指南",
-        ar: "البدء",
+        en: "Contact",
+        ja: "連絡先",
       })
     }
   </h2>
 
   <p>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+        <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+        <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+      </svg>
+      SnowDingo.tech@gmail.com
+    </div>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+      </svg>
+      @SnowDingoo
+    </div>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+        <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+      </svg>
+      SnowDingo
+    </div>
+  </p>
+
+  <h2>
     {
       t({
-        ja: "Astroの基本的な知識を前提とします。",
-        en: "Assumes basic knowledge of Astro.",
-        "zh-cn": "假设您具有 Astro 的基本知识。",
-        ar: "يفترض المعرفة الأساسية بـ Astro.",
+        ja:"詳細情報・プロジェクト",
+        en:"Details/Projects"
+      })
+    }
+  </h2>
+  <p>
+    {
+      t({
+        ja: "SnowDingoについての詳細や関わったプロジェクトについては下のボタンやサイトのヘッダーからご覧ください。",
+        en: "For more information and projects, please explore this website by clicking the button below or headers.",
       })
     }
   </p>
 
   <p>
-    <a href="https://docs.astro.build/" target="_blank">
-      https://docs.astro.build/
-      <span class="material-icons-sharp dir">open_in_new</span>
-    </a>
-  </p>
-
-  <p>
-    {
-      t({
-        ja: "大丈夫な方は、さっそく初めましょう！",
-        en: "If you're okay, let's get started!",
-        "zh-cn": "如果您没问题，让我们开始吧！",
-        ar: "إذا كنت على ما يرام، دعنا نبدأ!",
-      })
-    }
-  </p>
-
-  <p>
-    <a href={getRelativeLocaleUrl(locale, "setup")} class="start">
+    <a href={getRelativeLocaleUrl(locale, "projects")} class="start">
       <span class="material-icons-sharp dir">arrow_forward</span>
       {
         t({
-          ja: "設定を開始",
-          en: "Start Setup",
-          "zh-cn": "开始设置",
-          ar: "ابدأ الإعداد",
+          ja: "プロジェクト",
+          en: "Projects",
         })
       }
     </a>
