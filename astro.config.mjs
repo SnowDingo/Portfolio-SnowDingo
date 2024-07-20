@@ -4,10 +4,11 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-i18n-starter.pages.dev',
+  site: 'https://SnowDingo.github.io',
+  base: '/PortfolioSnowDingo',
   integrations: [mdx(), sitemap()],
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'ja',
     locales: ['en', 'ja',],
     routing: {
       prefixDefaultLocale: true,

@@ -1,38 +1,13 @@
-# Astro i18n Starter
+# SnowDingo's Portfolio
 
-```sh
-npm create astro@latest -- --template psephopaiktes/astro-i18n-starter
-```
+## English
+This is the repo for SnowDingo's official portfolio, which is based on the [Astro i18n template created by Akira Hirata]("https://astro.build/themes/details/i18n-starter") SnowDingo tweaked some things out to make it work for portfolio.
 
-[![Logo Image](docs/hero.svg)](https://astro-i18n-starter.pages.dev/ "See document")
-
-i18n Starter is a simple [Astro](https://astro.build) theme for creating multilingual websites.
-
-It supports [i18n routing in Astro v4.0](https://docs.astro.build/en/guides/internationalization/).
-
-It only supports the subdirectory URL format. Each language is managed with a URL like the following. The root URL will redirect to the specified default language.
-
-- example.com/en/
-- example.com/ja/
+This website is created with Astro.js🚀
 
 
-## Features
+## 日本語
+このレポジトリーは[Akira HirataさんのAstro i18nテンプレート]("https://astro.build/themes/details/i18n-starter")を使用したSnowDingoのポートフォリオサイトです。テーマをベースにして、SnowDingoがポートフォリオサイト向けに細かな変更を加えました。
 
-- [x] Support for Astro's official i18n functionality
-- [x] Various methods for managing multilingual pages
-- [x] Vanilla CSS
-- [x] SEO-friendly
+下に記載されているリンクからSnowDingoのポートフォリオサイトをご覧ください。
 
-
-## Lighthouse Score
-
-[![All scores are 100.](docs/lighthouse.png)](https://pagespeed.web.dev/analysis/https-astro-i18n-starter-pages-dev-en/8sg3q21r6c?form_factor=desktop "Check score")
-
-
-## Documentation
-
-This theme is self-documented, and the pages within this theme can be considered as documentation.
-
-Install and preview locally or check out the sample site below.
-
-https://astro-i18n-starter.pages.dev/
