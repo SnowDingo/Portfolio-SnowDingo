@@ -1,6 +1,8 @@
 ---
 // Redirect to Top page for user's system locale
 // Basically, you don't need to edit this file.
+return Astro.redirect('/ja/');
+
 
 import {
   useTranslations,
@@ -50,9 +52,6 @@ const defaultLocale = DEFAULT_LOCALE;
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content={t(X_ACCOUNT)} />
 
-    <noscript>
-      <meta http-equiv="refresh" content="0;url=/ja/" />
-    </noscript>
 
     <script is:inline define:vars={{ langs, baseUrl, defaultLocale }}>
       if (
